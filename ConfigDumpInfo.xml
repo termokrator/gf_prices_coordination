@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.20">
+	<ConfigVersions>
+		<Metadata name="BusinessProcess.СогласованиеЦенНоменклатуры" id="185175f2-8189-4a42-a9ba-9d62c8088942" configVersion="16789ee456223743b2aaa15771b7219f00000000">
+			<Metadata name="BusinessProcess.СогласованиеЦенНоменклатуры.Attribute.ДокументУстановкиЦен" id="0d8502e6-322d-4e19-9091-595f16113aec"/>
+			<Metadata name="BusinessProcess.СогласованиеЦенНоменклатуры.Attribute.РезультатСогласования2" id="2a655ad7-1e76-48a2-8b7e-6873cd95b4e2"/>
+			<Metadata name="BusinessProcess.СогласованиеЦенНоменклатуры.TabularSection.Цены.Attribute.КоэффициентКанала" id="3afad55e-62f5-4a1c-b158-216e84c1b864"/>
+			<Metadata name="BusinessProcess.СогласованиеЦенНоменклатуры.Attribute.СогласованиеВыполнено1" id="3f9c239e-0a09-4a11-9b1e-4dabd7b08cd6"/>
+			<Metadata name="BusinessProcess.СогласованиеЦенНоменклатуры.Attribute.ДатаПрименения" id="4a04ce53-7639-46c0-badb-1e988ae51730"/>
+			<Metadata name="BusinessProcess.СогласованиеЦенНоменклатуры.Attribute.Согласовано" id="4fa78726-c25f-4b9d-b49a-da552dba6a7c"/>
+			<Metadata name="BusinessProcess.СогласованиеЦенНоменклатуры.TabularSection.Цены.Attribute.ЕдиницаИзмерения" id="598a116f-4173-42fb-8cb5-c4983ecbcb2a"/>
+			<Metadata name="BusinessProcess.СогласованиеЦенНоменклатуры.TabularSection.Цены.Attribute.ПроцентИзменения" id="5c2a39a3-6a4e-4268-a483-1dca68c201c0"/>
+			<Metadata name="BusinessProcess.СогласованиеЦенНоменклатуры.Attribute.СогласованиеВыполнено3" id="5d5909ef-e102-4b53-b90a-341cdacd4184"/>
+			<Metadata name="BusinessProcess.СогласованиеЦенНоменклатуры.TabularSection.Цены.Attribute.Цена" id="6630d371-6e12-4105-9abd-965479b5d9ea"/>
+			<Metadata name="BusinessProcess.СогласованиеЦенНоменклатуры.Attribute.ДатаРешения1" id="6f3a1c2e-8b47-4d91-9e15-2c7a4b8d0f31"/>
+			<Metadata name="BusinessProcess.СогласованиеЦенНоменклатуры.Attribute.ДокументПлановогоИзменения" id="71b1819f-2348-4490-b717-d5243b45dd03"/>
+			<Metadata name="BusinessProcess.СогласованиеЦенНоменклатуры.Attribute.РезультатСогласования1" id="764e457d-491c-4f67-b327-4779e7f9c18e"/>
+			<Metadata name="BusinessProcess.СогласованиеЦенНоменклатуры.TabularSection.Цены.Attribute.ЦенаСНДС" id="80a5f549-4d52-4c0f-8476-4ddce6ca9286"/>
+			<Metadata name="BusinessProcess.СогласованиеЦенНоменклатуры.TabularSection.Цены.Attribute.ТипЦен" id="896b0a61-86ee-4f5e-8d25-5e0f25156b40"/>
+			<Metadata name="BusinessProcess.СогласованиеЦенНоменклатуры.Attribute.Комментарий1" id="8d90264f-49c3-45b9-ae4e-4db5da23ad1e"/>
+			<Metadata name="BusinessProcess.СогласованиеЦенНоменклатуры.Attribute.ДатаРешения2" id="91e4b7a2-3c58-4f06-b7d2-8a1e5c9f4b60"/>
+			<Metadata name="BusinessProcess.СогласованиеЦенНоменклатуры.Attribute.Инициатор" id="ac611b90-8d5d-4c59-9003-a4f477b24d7e"/>
+			<Metadata name="BusinessProcess.СогласованиеЦенНоменклатуры.TabularSection.Цены" id="ac733f67-deb2-427d-97e4-654a5cb8e9ca"/>
+			<Metadata name="BusinessProcess.СогласованиеЦенНоменклатуры.Attribute.СогласованиеВыполнено2" id="ae44b72e-d755-448c-a7ce-e9a4d625e814"/>
+			<Metadata name="BusinessProcess.СогласованиеЦенНоменклатуры.Attribute.Номенклатура" id="afeff006-f8bd-4e16-b040-2808873f47a6"/>
+			<Metadata name="BusinessProcess.СогласованиеЦенНоменклатуры.TabularSection.Цены.Attribute.СпособРасчетаЦены" id="b7dc3b09-f2e9-4689-bb8a-9713df975fd9"/>
+			<Metadata name="BusinessProcess.СогласованиеЦенНоменклатуры.Attribute.АдресПочтыИнициатора" id="bfbf591e-fd19-4dd4-99b1-99ab49e10863"/>
+			<Metadata name="BusinessProcess.СогласованиеЦенНоменклатуры.Attribute.Комментарий2" id="c106fb7c-70ea-4a76-bd16-03418d1de16c"/>
+			<Metadata name="BusinessProcess.СогласованиеЦенНоменклатуры.Attribute.ДатаРешения3" id="c4d8e1f7-2a63-4b90-8c15-7e3f6a9d2b48"/>
+			<Metadata name="BusinessProcess.СогласованиеЦенНоменклатуры.TabularSection.Цены.Attribute.ЦенаСтарая" id="c70ace90-0bc0-4ecc-83eb-fef104f3811d"/>
+			<Metadata name="BusinessProcess.СогласованиеЦенНоменклатуры.Attribute.РезультатСогласования3" id="cf484620-244a-4e1a-b4e5-ef411472f7df"/>
+			<Metadata name="BusinessProcess.СогласованиеЦенНоменклатуры.TabularSection.Цены.Attribute.ПроцентСкидкиНаценки" id="e41d1c48-dd5e-4019-81f8-4ec930ca1c48"/>
+			<Metadata name="BusinessProcess.СогласованиеЦенНоменклатуры.Attribute.Комментарий3" id="f754646f-0232-42a3-8d34-baa22937719c"/>
+		</Metadata>
+		<Metadata name="BusinessProcess.СогласованиеЦенНоменклатуры.Flowchart" id="185175f2-8189-4a42-a9ba-9d62c8088942.7" configVersion="2675767da2993043befe6fb72b9e7bde00000000"/>
+		<Metadata name="BusinessProcess.СогласованиеЦенНоменклатуры.Form.ФормаБизнесПроцесса" id="aedb8691-ae1b-4b05-b94f-185715483528" configVersion="f26572b45f03844f88039dcb31f8ecbf00000000"/>
+		<Metadata name="BusinessProcess.СогласованиеЦенНоменклатуры.Form.ФормаБизнесПроцесса.Form" id="aedb8691-ae1b-4b05-b94f-185715483528.0" configVersion="1c10cc5d9dd25047b18e9c9215eae7c900000000"/>
+		<Metadata name="BusinessProcess.СогласованиеЦенНоменклатуры.Form.ФормаСписка" id="41d03d99-c4a5-4768-8bbd-aa791e7e9e38" configVersion="6bd1ddb5cc9d724e9d39a5f727112f4600000000"/>
+		<Metadata name="BusinessProcess.СогласованиеЦенНоменклатуры.Form.ФормаСписка.Form" id="41d03d99-c4a5-4768-8bbd-aa791e7e9e38.0" configVersion="5b8902d6a12ff141954bbf8900a455a200000000"/>
+		<Metadata name="BusinessProcess.СогласованиеЦенНоменклатуры.ObjectModule" id="185175f2-8189-4a42-a9ba-9d62c8088942.6" configVersion="257b964ab480914798e5c07a16d55a8300000000"/>
+		<Metadata name="Catalog.ЕдиницыИзмерения" id="6ebbb40c-6370-48ea-8d51-2dddf6dcfd9a" configVersion="3752583db31f494497571cf82365d7c000000000"/>
+		<Metadata name="Catalog.Номенклатура" id="9104887d-a181-4a89-bbe0-1bf5eda3bfa7" configVersion="92525a7a8cf3ab448f72589ca9f2bf5e00000000">
+			<Metadata name="Catalog.Номенклатура.Attribute.ЕдиницаХраненияОстатков" id="a7c1e4b2-6d38-4f91-9c05-1b8e3a7d4f62"/>
+			<Metadata name="Catalog.Номенклатура.Attribute.СтавкаНДС" id="b8d2f5c3-7e49-4a02-8d16-2c9f4b8e5a73"/>
+		</Metadata>
+		<Metadata name="Catalog.Пользователи" id="7e9fd3c4-ae30-4a87-a9a1-a864b083c288" configVersion="ba068f5cc554f04a9f70d85a9f79bfc100000000">
+			<Metadata name="Catalog.Пользователи.Attribute.ФизЛицо" id="c9e3a6d4-8f5a-4b13-9e27-3d0a5c9f6b84"/>
+		</Metadata>
+		<Metadata name="Catalog.ТипыЦенНоменклатуры" id="93441c46-8b28-4b89-8c17-3a2cfabc4025" configVersion="91cfe1816f0bc649a59d91beb3e0ef5800000000">
+			<Metadata name="Catalog.ТипыЦенНоменклатуры.Attribute.ПроцентСкидкиНаценки" id="d0f4b7e5-906b-4c24-af38-4e1b6d0a7c95"/>
+			<Metadata name="Catalog.ТипыЦенНоменклатуры.Attribute.КоэффициентКанала" id="e1a5c8f6-a17c-4d35-b049-5f2c7e1b8da6"/>
+			<Metadata name="Catalog.ТипыЦенНоменклатуры.Attribute.СпособРасчетаЦены" id="f2b6d907-b28d-4e46-815a-603d8f2c9eb7"/>
+		</Metadata>
+		<Metadata name="Catalog.ТипыЦенНоменклатуры.Predefined" id="93441c46-8b28-4b89-8c17-3a2cfabc4025.1c" configVersion="4047d65da350f046a547e1df03e00e3100000000"/>
+		<Metadata name="Catalog.УчетныеЗаписиЭлектроннойПочты" id="3d73cb6b-1028-45c0-a32d-7938102d06d3" configVersion="e8a5976f59182b49a25e01504935ed0c00000000"/>
+		<Metadata name="Catalog.ФизическиеЛица" id="d3b3a5b6-045c-4729-8a6b-5f4e718293aa" configVersion="c210313dfba6614dba232d7e5dcae22c00000000"/>
+		<Metadata name="CommonModule.СогласованиеЦенНоменклатурыСервер" id="9ff2cff5-8fc8-4dae-9134-673d8c6df9d9" configVersion="2f215ea9dde3c742a7b0e2ae898d233400000000"/>
+		<Metadata name="CommonModule.СогласованиеЦенНоменклатурыСервер.Module" id="9ff2cff5-8fc8-4dae-9134-673d8c6df9d9.0" configVersion="570513a51dc05148882964ab6efcaefe00000000"/>
+		<Metadata name="Configuration.Конфигурация" id="1a9c331a-a8b4-4536-9cc0-fa99ac7d0d97" configVersion="f41b76a152712a4ebaa3d89cdfff5ca700000000"/>
+		<Metadata name="Constant.АдресПочтыОтделаПродаж" id="b75a2a4d-0c26-4007-8a6c-766f7cee2a9f" configVersion="9469c40ad9b3c447a630f131159f088a00000000"/>
+		<Metadata name="Constant.УчетнаяЗаписьПочтыСогласованияЦен" id="6a337289-0a8a-4ecc-bdde-e2938c6b8d4a" configVersion="0dd9472d802c6446a285399aefea757700000000"/>
+		<Metadata name="DataProcessor.ОтправкаЦенНаСогласование" id="bf0d80e9-e175-420c-8ae7-07087463f343" configVersion="fc9f674a2b23154c9fd2412a8f70aa9500000000">
+			<Metadata name="DataProcessor.ОтправкаЦенНаСогласование.TabularSection.ТаблицаЦен.Attribute.ЕдиницаИзмерения" id="17ed4700-d071-4c8f-b456-91fffd62b01f"/>
+			<Metadata name="DataProcessor.ОтправкаЦенНаСогласование.TabularSection.ТаблицаЦен.Attribute.ПроцентСкидкиНаценки" id="20c885ec-dfaa-4727-8f64-c3491f4a3933"/>
+			<Metadata name="DataProcessor.ОтправкаЦенНаСогласование.TabularSection.ТаблицаЦен.Attribute.ЦенаСНДС" id="388e820e-0429-4621-b3a0-04876f798c5f"/>
+			<Metadata name="DataProcessor.ОтправкаЦенНаСогласование.TabularSection.ТаблицаЦен" id="418796ae-d316-44db-ae3f-a317099af719"/>
+			<Metadata name="DataProcessor.ОтправкаЦенНаСогласование.Attribute.ДатаПрименения" id="54acdfaf-9013-42d2-9e4f-21f869df9303"/>
+			<Metadata name="DataProcessor.ОтправкаЦенНаСогласование.TabularSection.ТаблицаЦен.Attribute.СпособРасчетаЦены" id="581bc9ad-c5a0-4f2b-b394-65a034c53279"/>
+			<Metadata name="DataProcessor.ОтправкаЦенНаСогласование.TabularSection.ТаблицаЦен.Attribute.ПроцентИзменения" id="ac136453-37e6-46b5-9882-f1a9f0a6b7d1"/>
+			<Metadata name="DataProcessor.ОтправкаЦенНаСогласование.TabularSection.ТаблицаЦен.Attribute.ТипЦен" id="b23c0e18-d2f0-422a-806b-22a6acaa76b1"/>
+			<Metadata name="DataProcessor.ОтправкаЦенНаСогласование.TabularSection.ТаблицаЦен.Attribute.ЦенаСтарая" id="c62313b0-cdae-47ed-89af-ef01813feee5"/>
+			<Metadata name="DataProcessor.ОтправкаЦенНаСогласование.TabularSection.ТаблицаЦен.Attribute.КоэффициентКанала" id="ddb1cf91-915b-4ec8-b857-2f57f871e945"/>
+			<Metadata name="DataProcessor.ОтправкаЦенНаСогласование.TabularSection.ТаблицаЦен.Attribute.Цена" id="e486aae6-7410-487f-9e29-8db22414e91f"/>
+			<Metadata name="DataProcessor.ОтправкаЦенНаСогласование.Attribute.Номенклатура" id="efd6803d-324f-4688-9d28-8d4034c3013c"/>
+		</Metadata>
+		<Metadata name="DataProcessor.ОтправкаЦенНаСогласование.Form.Форма" id="0d5c387e-e824-4f05-b599-675c776d1536" configVersion="b47c9676e4a8614db9e642c5070c451f00000000"/>
+		<Metadata name="DataProcessor.ОтправкаЦенНаСогласование.Form.Форма.Form" id="0d5c387e-e824-4f05-b599-675c776d1536.0" configVersion="67ce9e752e9fa84796663e1db416b91300000000"/>
+		<Metadata name="Document.ПлановоеИзменениеЦен" id="1751d109-82cf-4e97-8a7c-ff178b31139a" configVersion="566e8592a84e0e40bd49aa4647a0163c00000000"/>
+		<Metadata name="Document.УстановкаЦенНоменклатуры" id="780793d4-e1ab-4752-a379-c299b76e0475" configVersion="a2dd4d3188a4744ab634739a72ae26ce00000000"/>
+		<Metadata name="Enum.СпособыРасчетаЦены" id="c7aec2b8-6126-4b49-9119-bdb6a183b097" configVersion="9c4bffd3fcfc3340904d2cafe8dca7b300000000">
+			<Metadata name="Enum.СпособыРасчетаЦены.EnumValue.ПоПроцентнойНаценкеНаБазовыйТип" id="0a3c7e18-c39e-4f57-826b-714e903daf18"/>
+		</Metadata>
+		<Metadata name="Enum.СтавкиНДС" id="c2a294a5-f34b-4618-895a-4e3d60718299" configVersion="934387d5fed7874c82c98ebe5ef11e0200000000"/>
+		<Metadata name="InformationRegister.СогласующиеЦенНоменклатуры" id="f042820f-ff9a-45ac-be55-7e29542f028b" configVersion="e50e41747f0eaf43ac228dc8fdff240e00000000">
+			<Metadata name="InformationRegister.СогласующиеЦенНоменклатуры.Dimension.НомерСогласующего" id="6368c718-d4f4-4dd1-828a-e34e5fd9331c"/>
+			<Metadata name="InformationRegister.СогласующиеЦенНоменклатуры.Resource.АдресЭлектроннойПочты" id="743d016f-681f-4b4f-8303-695c7a3f77a4"/>
+			<Metadata name="InformationRegister.СогласующиеЦенНоменклатуры.Resource.Пользователь" id="9906c2f6-c457-468b-be4b-d73325da035d"/>
+		</Metadata>
+		<Metadata name="InformationRegister.СогласующиеЦенНоменклатуры.Form.ФормаСписка" id="5a74022d-41f6-45aa-8120-6f25ac507614" configVersion="e107d18664327e49b9e9a91db73be7a000000000"/>
+		<Metadata name="InformationRegister.СогласующиеЦенНоменклатуры.Form.ФормаСписка.Form" id="5a74022d-41f6-45aa-8120-6f25ac507614.0" configVersion="47221b6d05cf80479a1659b6d9e5774800000000"/>
+		<Metadata name="Language.Русский" id="14e4b13f-c0cf-44d1-91b2-15457351385e" configVersion="62fed4034d8859478336d1e6d988e2b300000000"/>
+		<Metadata name="SessionParameter.ТекущийПользователь" id="c43b61c5-80dd-41c5-a172-84361b98ea07" configVersion="52b9835ba90fce45926bbfc86f43dd0e00000000"/>
+		<Metadata name="Task.ЗадачаСогласованияЦен" id="85df6e61-f726-49ee-9b67-664f804e538a" configVersion="094e9a7de1c8b248a2dd8f3b42ff4a2700000000">
+			<Metadata name="Task.ЗадачаСогласованияЦен.AddressingAttribute.Исполнитель" id="1fc1a901-6c7e-4dd7-903d-3d010eb027bd"/>
+			<Metadata name="Task.ЗадачаСогласованияЦен.Attribute.РешениеПринято" id="3755a5ce-d2d2-4e76-9f08-64a331233267"/>
+			<Metadata name="Task.ЗадачаСогласованияЦен.Attribute.НомерСогласующего" id="7923047c-256d-4382-9359-5bb66a4de3a9"/>
+			<Metadata name="Task.ЗадачаСогласованияЦен.Attribute.Согласовано" id="938bf6fe-ebbf-417d-b88a-dded34fab9b2"/>
+			<Metadata name="Task.ЗадачаСогласованияЦен.Attribute.Комментарий" id="9933251c-0e15-4c02-b319-75e83a7b06cc"/>
+		</Metadata>
+		<Metadata name="Task.ЗадачаСогласованияЦен.Form.ФормаЗадачи" id="19c06359-3656-4968-a51d-315d457a348e" configVersion="7e01f93769a29b46b9ad9ac0bd89de3b00000000"/>
+		<Metadata name="Task.ЗадачаСогласованияЦен.Form.ФормаЗадачи.Form" id="19c06359-3656-4968-a51d-315d457a348e.0" configVersion="8c853c6b7585c4429142a201bd0e9cbe00000000"/>
+		<Metadata name="Task.ЗадачаСогласованияЦен.Form.ФормаСписка" id="c3299fa9-56d0-4b0c-89d3-19e27bb6e273" configVersion="df34bdfc85c0ef4ca8ea0f7dac42677900000000"/>
+		<Metadata name="Task.ЗадачаСогласованияЦен.Form.ФормаСписка.Form" id="c3299fa9-56d0-4b0c-89d3-19e27bb6e273.0" configVersion="1e69b71cc858c942a473f25fad28d08e00000000"/>
+	</ConfigVersions>
+</ConfigDumpInfo>

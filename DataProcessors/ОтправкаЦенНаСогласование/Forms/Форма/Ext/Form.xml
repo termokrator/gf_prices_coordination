@@ -1,0 +1,260 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+		<Autofill>false</Autofill>
+	</AutoCommandBar>
+	<Events>
+		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
+	</Events>
+	<ChildItems>
+		<InputField name="Номенклатура" id="29">
+			<DataPath>Объект.Номенклатура</DataPath>
+			<ReadOnly>true</ReadOnly>
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Номенклатура</v8:content>
+				</v8:item>
+			</Title>
+			<ContextMenu name="НоменклатураКонтекстноеМеню" id="30"/>
+			<ExtendedTooltip name="НоменклатураРасширеннаяПодсказка" id="31"/>
+		</InputField>
+		<InputField name="ДатаПрименения" id="32">
+			<DataPath>Объект.ДатаПрименения</DataPath>
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Дата применения</v8:content>
+				</v8:item>
+			</Title>
+			<ContextMenu name="ДатаПримененияКонтекстноеМеню" id="33"/>
+			<ExtendedTooltip name="ДатаПримененияРасширеннаяПодсказка" id="34"/>
+		</InputField>
+		<Table name="ТаблицаЦен" id="35">
+			<Representation>List</Representation>
+			<ChangeRowSet>false</ChangeRowSet>
+			<ChangeRowOrder>false</ChangeRowOrder>
+			<DataPath>Объект.ТаблицаЦен</DataPath>
+			<RowFilter xsi:nil="true"/>
+			<ContextMenu name="ТаблицаЦенКонтекстноеМеню" id="36"/>
+			<AutoCommandBar name="ТаблицаЦенКоманднаяПанель" id="38">
+				<Autofill>false</Autofill>
+			</AutoCommandBar>
+			<ExtendedTooltip name="ТаблицаЦенРасширеннаяПодсказка" id="37"/>
+			<SearchStringAddition name="ТаблицаЦенСтрокаПоиска" id="39">
+				<AdditionSource>
+					<Item>ТаблицаЦен</Item>
+					<Type>SearchStringRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="ТаблицаЦенСтрокаПоискаКонтекстноеМеню" id="40"/>
+				<ExtendedTooltip name="ТаблицаЦенСтрокаПоискаРасширеннаяПодсказка" id="41"/>
+			</SearchStringAddition>
+			<ViewStatusAddition name="ТаблицаЦенСостояниеПросмотра" id="42">
+				<AdditionSource>
+					<Item>ТаблицаЦен</Item>
+					<Type>ViewStatusRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="ТаблицаЦенСостояниеПросмотраКонтекстноеМеню" id="43"/>
+				<ExtendedTooltip name="ТаблицаЦенСостояниеПросмотраРасширеннаяПодсказка" id="44"/>
+			</ViewStatusAddition>
+			<SearchControlAddition name="ТаблицаЦенУправлениеПоиском" id="45">
+				<AdditionSource>
+					<Item>ТаблицаЦен</Item>
+					<Type>SearchControl</Type>
+				</AdditionSource>
+				<ContextMenu name="ТаблицаЦенУправлениеПоискомКонтекстноеМеню" id="46"/>
+				<ExtendedTooltip name="ТаблицаЦенУправлениеПоискомРасширеннаяПодсказка" id="47"/>
+			</SearchControlAddition>
+			<ChildItems>
+				<InputField name="ТаблицаЦенТипЦен" id="2">
+					<DataPath>Объект.ТаблицаЦен.ТипЦен</DataPath>
+					<ReadOnly>true</ReadOnly>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Тип цен</v8:content>
+						</v8:item>
+					</Title>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ТаблицаЦенТипЦенКонтекстноеМеню" id="3"/>
+					<ExtendedTooltip name="ТаблицаЦенТипЦенРасширеннаяПодсказка" id="4"/>
+				</InputField>
+				<InputField name="ТаблицаЦенЦенаСтарая" id="5">
+					<DataPath>Объект.ТаблицаЦен.ЦенаСтарая</DataPath>
+					<ReadOnly>true</ReadOnly>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Цена старая</v8:content>
+						</v8:item>
+					</Title>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ТаблицаЦенЦенаСтараяКонтекстноеМеню" id="6"/>
+					<ExtendedTooltip name="ТаблицаЦенЦенаСтараяРасширеннаяПодсказка" id="7"/>
+				</InputField>
+				<InputField name="ТаблицаЦенЦена" id="8">
+					<DataPath>Объект.ТаблицаЦен.Цена</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Цена</v8:content>
+						</v8:item>
+					</Title>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ТаблицаЦенЦенаКонтекстноеМеню" id="9"/>
+					<ExtendedTooltip name="ТаблицаЦенЦенаРасширеннаяПодсказка" id="10"/>
+					<Events>
+						<Event name="OnChange">ТаблицаЦенЦенаПриИзменении</Event>
+					</Events>
+				</InputField>
+				<InputField name="ТаблицаЦенЦенаСНДС" id="11">
+					<DataPath>Объект.ТаблицаЦен.ЦенаСНДС</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Цена с НДС</v8:content>
+						</v8:item>
+					</Title>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ТаблицаЦенЦенаСНДСКонтекстноеМеню" id="12"/>
+					<ExtendedTooltip name="ТаблицаЦенЦенаСНДСРасширеннаяПодсказка" id="13"/>
+					<Events>
+						<Event name="OnChange">ТаблицаЦенЦенаСНДСПриИзменении</Event>
+					</Events>
+				</InputField>
+				<InputField name="ТаблицаЦенПроцентИзменения" id="14">
+					<DataPath>Объект.ТаблицаЦен.ПроцентИзменения</DataPath>
+					<ReadOnly>true</ReadOnly>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Процент изменения</v8:content>
+						</v8:item>
+					</Title>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ТаблицаЦенПроцентИзмененияКонтекстноеМеню" id="15"/>
+					<ExtendedTooltip name="ТаблицаЦенПроцентИзмененияРасширеннаяПодсказка" id="16"/>
+				</InputField>
+				<InputField name="ТаблицаЦенКоэффициентКанала" id="17">
+					<DataPath>Объект.ТаблицаЦен.КоэффициентКанала</DataPath>
+					<ReadOnly>true</ReadOnly>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Коэффициент канала</v8:content>
+						</v8:item>
+					</Title>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ТаблицаЦенКоэффициентКаналаКонтекстноеМеню" id="18"/>
+					<ExtendedTooltip name="ТаблицаЦенКоэффициентКаналаРасширеннаяПодсказка" id="19"/>
+				</InputField>
+				<InputField name="ТаблицаЦенПроцентСкидкиНаценки" id="20">
+					<DataPath>Объект.ТаблицаЦен.ПроцентСкидкиНаценки</DataPath>
+					<ReadOnly>true</ReadOnly>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Процент скидки (наценки)</v8:content>
+						</v8:item>
+					</Title>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ТаблицаЦенПроцентСкидкиНаценкиКонтекстноеМеню" id="21"/>
+					<ExtendedTooltip name="ТаблицаЦенПроцентСкидкиНаценкиРасширеннаяПодсказка" id="22"/>
+				</InputField>
+				<InputField name="ТаблицаЦенСпособРасчетаЦены" id="23">
+					<DataPath>Объект.ТаблицаЦен.СпособРасчетаЦены</DataPath>
+					<ReadOnly>true</ReadOnly>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Способ расчета цены</v8:content>
+						</v8:item>
+					</Title>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ТаблицаЦенСпособРасчетаЦеныКонтекстноеМеню" id="24"/>
+					<ExtendedTooltip name="ТаблицаЦенСпособРасчетаЦеныРасширеннаяПодсказка" id="25"/>
+				</InputField>
+				<InputField name="ТаблицаЦенЕдиницаИзмерения" id="26">
+					<DataPath>Объект.ТаблицаЦен.ЕдиницаИзмерения</DataPath>
+					<ReadOnly>true</ReadOnly>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Единица измерения</v8:content>
+						</v8:item>
+					</Title>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ТаблицаЦенЕдиницаИзмеренияКонтекстноеМеню" id="27"/>
+					<ExtendedTooltip name="ТаблицаЦенЕдиницаИзмеренияРасширеннаяПодсказка" id="28"/>
+				</InputField>
+			</ChildItems>
+		</Table>
+		<Button name="ОК" id="48">
+			<Type>UsualButton</Type>
+			<CommandName>Form.Command.ОК</CommandName>
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>ОК</v8:content>
+				</v8:item>
+			</Title>
+			<ExtendedTooltip name="ОКРасширеннаяПодсказка" id="49"/>
+		</Button>
+		<Button name="Отмена" id="50">
+			<Type>UsualButton</Type>
+			<CommandName>Form.Command.Отмена</CommandName>
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Отмена</v8:content>
+				</v8:item>
+			</Title>
+			<ExtendedTooltip name="ОтменаРасширеннаяПодсказка" id="51"/>
+		</Button>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Объект</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>cfg:DataProcessorObject.ОтправкаЦенНаСогласование</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<SavedData>true</SavedData>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="ОК" id="52">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>ОК</v8:content>
+				</v8:item>
+			</Title>
+			<Action>ОК</Action>
+		</Command>
+		<Command name="Отмена" id="53">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Отмена</v8:content>
+				</v8:item>
+			</Title>
+			<Action>Отмена</Action>
+		</Command>
+	</Commands>
+	<Parameters>
+		<Parameter name="Номенклатура">
+			<Type>
+				<v8:Type>cfg:CatalogRef.Номенклатура</v8:Type>
+			</Type>
+		</Parameter>
+		<Parameter name="ЦеныНоменклатуры">
+			<Type/>
+		</Parameter>
+	</Parameters>
+</Form>

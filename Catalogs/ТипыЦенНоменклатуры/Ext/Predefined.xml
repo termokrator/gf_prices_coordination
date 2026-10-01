@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<PredefinedData xmlns="http://v8.1c.ru/8.3/xcf/predef" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="CatalogPredefinedItems" version="2.20">
+	<Item id="4f8a1c2d-7b63-4e90-a1d2-6c5b8e9f0a11">
+		<Name>Закупочная</Name>
+		<Code>000000001</Code>
+		<Description>Закупочная</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="5a9b2d3e-8c74-4fa1-b2e3-7d6c9f0a1b22">
+		<Name>Краснодар</Name>
+		<Code>000000002</Code>
+		<Description>Краснодар</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="6bac3e4f-9d85-40b2-83f4-8e7d0a1b2c33">
+		<Name>Крым</Name>
+		<Code>000000003</Code>
+		<Description>Крым</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="8dce5061-bf07-42d4-8516-0a9f2c3d4e55">
+		<Name>Канал1</Name>
+		<Code>000000005</Code>
+		<Description>Канал 1</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="9edf6172-c018-43e5-9627-1b0a3d4e5f66">
+		<Name>Канал2</Name>
+		<Code>000000006</Code>
+		<Description>Канал 2</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="a0e07283-d129-44f6-a738-2c1b4e5f6077">
+		<Name>Канал3</Name>
+		<Code>000000007</Code>
+		<Description>Канал 3</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="b1f18394-e23a-4507-b849-3d2c5f607188">
+		<Name>Канал4</Name>
+		<Code>000000008</Code>
+		<Description>Канал 4</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+</PredefinedData>
