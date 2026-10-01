@@ -248,6 +248,12 @@
 				<InputField name="ТаблицаЦенПроцентИзменения" id="35">
 					<DataPath>ТаблицаЦен.ПроцентИзменения</DataPath>
 					<ReadOnly>true</ReadOnly>
+					<Format>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>ЧДЦ=2</v8:content>
+						</v8:item>
+					</Format>
 					<Title>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -255,12 +261,6 @@
 						</v8:item>
 					</Title>
 					<EditMode>EnterOnInput</EditMode>
-					<Format>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>ЧДЦ=2</v8:content>
-						</v8:item>
-					</Format>
 					<ContextMenu name="ТаблицаЦенПроцентИзмененияКонтекстноеМеню" id="36"/>
 					<ExtendedTooltip name="ТаблицаЦенПроцентИзмененияРасширеннаяПодсказка" id="37"/>
 				</InputField>
