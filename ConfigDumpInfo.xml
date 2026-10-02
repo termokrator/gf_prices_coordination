@@ -39,7 +39,7 @@
 		<Metadata name="BusinessProcess.СогласованиеЦенНоменклатуры.Form.ФормаСписка.Form" id="41d03d99-c4a5-4768-8bbd-aa791e7e9e38.0" configVersion="5b8902d6a12ff141954bbf8900a455a200000000"/>
 		<Metadata name="BusinessProcess.СогласованиеЦенНоменклатуры.ObjectModule" id="185175f2-8189-4a42-a9ba-9d62c8088942.6" configVersion="257b964ab480914798e5c07a16d55a8300000000"/>
 		<Metadata name="Catalog.ЕдиницыИзмерения" id="6ebbb40c-6370-48ea-8d51-2dddf6dcfd9a" configVersion="3752583db31f494497571cf82365d7c000000000"/>
-		<Metadata name="Catalog.Номенклатура" id="9104887d-a181-4a89-bbe0-1bf5eda3bfa7" configVersion="92525a7a8cf3ab448f72589ca9f2bf5e00000000">
+		<Metadata name="Catalog.Номенклатура" id="9104887d-a181-4a89-bbe0-1bf5eda3bfa7" configVersion="29f8589315e8154eb279f3e35f5ccdd500000000">
 			<Metadata name="Catalog.Номенклатура.Attribute.ЕдиницаХраненияОстатков" id="a7c1e4b2-6d38-4f91-9c05-1b8e3a7d4f62"/>
 			<Metadata name="Catalog.Номенклатура.Attribute.СтавкаНДС" id="b8d2f5c3-7e49-4a02-8d16-2c9f4b8e5a73"/>
 		</Metadata>
@@ -56,7 +56,7 @@
 		<Metadata name="Catalog.ФизическиеЛица" id="d3b3a5b6-045c-4729-8a6b-5f4e718293aa" configVersion="c210313dfba6614dba232d7e5dcae22c00000000"/>
 		<Metadata name="CommonModule.СогласованиеЦенНоменклатурыСервер" id="9ff2cff5-8fc8-4dae-9134-673d8c6df9d9" configVersion="2f215ea9dde3c742a7b0e2ae898d233400000000"/>
 		<Metadata name="CommonModule.СогласованиеЦенНоменклатурыСервер.Module" id="9ff2cff5-8fc8-4dae-9134-673d8c6df9d9.0" configVersion="570513a51dc05148882964ab6efcaefe00000000"/>
-		<Metadata name="Configuration.Конфигурация" id="1a9c331a-a8b4-4536-9cc0-fa99ac7d0d97" configVersion="f41b76a152712a4ebaa3d89cdfff5ca700000000"/>
+		<Metadata name="Configuration.Конфигурация" id="1a9c331a-a8b4-4536-9cc0-fa99ac7d0d97" configVersion="eaba0c990af66147930b133d849872a800000000"/>
 		<Metadata name="Constant.АдресПочтыОтделаПродаж" id="b75a2a4d-0c26-4007-8a6c-766f7cee2a9f" configVersion="9469c40ad9b3c447a630f131159f088a00000000"/>
 		<Metadata name="Constant.УчетнаяЗаписьПочтыСогласованияЦен" id="6a337289-0a8a-4ecc-bdde-e2938c6b8d4a" configVersion="0dd9472d802c6446a285399aefea757700000000"/>
 		<Metadata name="DataProcessor.ОтправкаЦенНаСогласование" id="bf0d80e9-e175-420c-8ae7-07087463f343" configVersion="fc9f674a2b23154c9fd2412a8f70aa9500000000">
@@ -89,17 +89,19 @@
 		<Metadata name="InformationRegister.СогласующиеЦенНоменклатуры.Form.ФормаСписка" id="5a74022d-41f6-45aa-8120-6f25ac507614" configVersion="e107d18664327e49b9e9a91db73be7a000000000"/>
 		<Metadata name="InformationRegister.СогласующиеЦенНоменклатуры.Form.ФормаСписка.Form" id="5a74022d-41f6-45aa-8120-6f25ac507614.0" configVersion="47221b6d05cf80479a1659b6d9e5774800000000"/>
 		<Metadata name="Language.Русский" id="14e4b13f-c0cf-44d1-91b2-15457351385e" configVersion="62fed4034d8859478336d1e6d988e2b300000000"/>
+		<Metadata name="Role.ПолныеПрава" id="005a67c5-d1cd-43f0-af54-63ea6e3108dd" configVersion="b4c5e8ba9b844a4b9bc8dd6fe39f9e6200000000"/>
+		<Metadata name="Role.ПолныеПрава.Rights" id="005a67c5-d1cd-43f0-af54-63ea6e3108dd.0" configVersion="93eb6713d11a1a4088a5beabdf94342300000000"/>
 		<Metadata name="SessionParameter.ТекущийПользователь" id="c43b61c5-80dd-41c5-a172-84361b98ea07" configVersion="52b9835ba90fce45926bbfc86f43dd0e00000000"/>
-		<Metadata name="Task.ЗадачаСогласованияЦен" id="85df6e61-f726-49ee-9b67-664f804e538a" configVersion="094e9a7de1c8b248a2dd8f3b42ff4a2700000000">
+		<Metadata name="Task.ЗадачаСогласованияЦен" id="85df6e61-f726-49ee-9b67-664f804e538a" configVersion="b9367028b87317469a641af77f5786a500000000">
 			<Metadata name="Task.ЗадачаСогласованияЦен.AddressingAttribute.Исполнитель" id="1fc1a901-6c7e-4dd7-903d-3d010eb027bd"/>
 			<Metadata name="Task.ЗадачаСогласованияЦен.Attribute.РешениеПринято" id="3755a5ce-d2d2-4e76-9f08-64a331233267"/>
 			<Metadata name="Task.ЗадачаСогласованияЦен.Attribute.НомерСогласующего" id="7923047c-256d-4382-9359-5bb66a4de3a9"/>
 			<Metadata name="Task.ЗадачаСогласованияЦен.Attribute.Согласовано" id="938bf6fe-ebbf-417d-b88a-dded34fab9b2"/>
 			<Metadata name="Task.ЗадачаСогласованияЦен.Attribute.Комментарий" id="9933251c-0e15-4c02-b319-75e83a7b06cc"/>
 		</Metadata>
-		<Metadata name="Task.ЗадачаСогласованияЦен.Form.ФормаЗадачи" id="19c06359-3656-4968-a51d-315d457a348e" configVersion="7e01f93769a29b46b9ad9ac0bd89de3b00000000"/>
-		<Metadata name="Task.ЗадачаСогласованияЦен.Form.ФормаЗадачи.Form" id="19c06359-3656-4968-a51d-315d457a348e.0" configVersion="8c853c6b7585c4429142a201bd0e9cbe00000000"/>
-		<Metadata name="Task.ЗадачаСогласованияЦен.Form.ФормаСписка" id="c3299fa9-56d0-4b0c-89d3-19e27bb6e273" configVersion="df34bdfc85c0ef4ca8ea0f7dac42677900000000"/>
-		<Metadata name="Task.ЗадачаСогласованияЦен.Form.ФормаСписка.Form" id="c3299fa9-56d0-4b0c-89d3-19e27bb6e273.0" configVersion="1e69b71cc858c942a473f25fad28d08e00000000"/>
+		<Metadata name="Task.ЗадачаСогласованияЦен.Form.ФормаЗадачи" id="19c06359-3656-4968-a51d-315d457a348e" configVersion="9cdc1aad1515a6489b353d33ed361b8b00000000"/>
+		<Metadata name="Task.ЗадачаСогласованияЦен.Form.ФормаЗадачи.Form" id="19c06359-3656-4968-a51d-315d457a348e.0" configVersion="d36c45d95f90994a8d701fcfd293fd9700000000"/>
+		<Metadata name="Task.ЗадачаСогласованияЦен.Form.ФормаСписка" id="c3299fa9-56d0-4b0c-89d3-19e27bb6e273" configVersion="5980890397cd6d468e2436d8281a5eb700000000"/>
+		<Metadata name="Task.ЗадачаСогласованияЦен.Form.ФормаСписка.Form" id="c3299fa9-56d0-4b0c-89d3-19e27bb6e273.0" configVersion="40546b228462f247871a0ca4fa59a45800000000"/>
 	</ConfigVersions>
 </ConfigDumpInfo>

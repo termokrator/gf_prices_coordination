@@ -246,6 +246,7 @@
 		<ChildObjects>
 			<Language>Русский</Language>
 			<SessionParameter>ТекущийПользователь</SessionParameter>
+			<Role>ПолныеПрава</Role>
 			<CommonModule>СогласованиеЦенНоменклатурыСервер</CommonModule>
 			<Constant>АдресПочтыОтделаПродаж</Constant>
 			<Constant>УчетнаяЗаписьПочтыСогласованияЦен</Constant>
